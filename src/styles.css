@@ -1,0 +1,226 @@
+body {
+  width: 900px;
+  background-color: #353535;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+}
+.naslov {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  border: 5px solid #336699;
+  padding: 10px 10px;
+  margin-left: 40px;
+}
+.header {
+  width: 900px;
+  position: fixed;
+  background-color: rgba(94, 94, 94, 0.333);
+}
+.footer {
+  background-color: rgba(94, 94, 94, 0.333);
+  height: 150px;
+  width: 900px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  margin-top: 50px;
+  margin-right: 50px;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #336699;
+}
+.naslovna {
+  width: 900px;
+}
+.rammie_slika {
+  height: 200px;
+  float: left;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+.plisanitekst {
+  float: left;
+  margin-left: 20px;
+  background-color: rgb(33, 37, 37);
+  padding: 10px 10px;
+  width: 300px;
+}
+.plisanidesc {
+  float: left;
+  margin-left: 30px;
+}
+.lego {
+  margin-top: 150px;
+}
+.lego_slika {
+  height: 200px;
+  float: right;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+.legotekst {
+  float: right;
+  margin-right: 0px;
+  background-color: rgb(33, 37, 37);
+  padding: 10px 10px;
+  width: 300px;
+}
+.legodesc {
+  float: right;
+  margin-right: 30px;
+}
+.action {
+  margin-top: 150px;
+}
+.action_slika {
+  height: 200px;
+  float: left;
+  margin-left: 20px;
+  transition: transform 0.2s;
+}
+.actiontekst {
+  float: left;
+  margin-left: 20px;
+  background-color: rgb(33, 37, 37);
+  padding: 10px 10px;
+  width: 300px;
+}
+.actiondesc {
+  float: left;
+  margin-left: 30px;
+}
+.rammie_slika:hover {
+  transform: scale(1.5);
+}
+.lego_slika:hover {
+  transform: scale(1.5);
+}
+.action_slika:hover {
+  transform: scale(1.5);
+}
+
+a {
+  color: white;
+}
+
+.margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.tablica {
+  color: white;
+}
+
+.forms {
+  display: table;
+  border: 5px solid #336699;
+  border-radius: 0.625em;
+  padding: 10px 10px 10px 10px;
+  margin: auto;
+}
+
+.forms div {
+  display: table-cell;
+}
+
+.cell1 {
+  text-align: center;
+}
+
+.forms2 {
+  width: 1000px;
+  border: 1px solid #aaaaaa;
+  border-radius: 0.625em;
+  padding: 7px 2px;
+}
+
+.forms p {
+  color: #336699;
+}
+
+.forms table {
+  border: 1px solid white;
+  margin: 2em 1em;
+}
+
+.forms table td {
+  border: 1px solid white;
+  padding: 0.313em;
+}
+
+.forms2 fieldset {
+  padding: 20px;
+  margin: 20px;
+}
+
+.cell {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0em 0.313em;
+}
+.naruci {
+  margin-left: 20px;
+}
+.reset {
+  margin-left: 20px;
+}
+.smile {
+  width: 500px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.prvi {
+  width: 900px;
+  height: 240px;
+}
+.igracke {
+  width: 300px;
+  float: left;
+}
+.drugi {
+  width: 900px;
+  height: 250px;
+}
+.igracke2 {
+  width: 300px;
+  float: right;
+}
+.tekst {
+  font-size: 20px;
+  margin-left: 320px;
+}
+.tekst2 {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 320px;
+}
+.narudzba input {
+  padding: 15px;
+  margin: 5px;
+}
+.botun {
+  padding: 15px;
+  margin: 5;
+}
